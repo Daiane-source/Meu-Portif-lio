@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffcccc, #ff99cc);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #a7f2d2;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+    color: #ff4081;
+    font-size: 24px;
+}
+
+/* Intro Section */
+.intro {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 18px;
+    color: #ff4081;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #ff99cc;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff66b2;
+}
+
+/* Footer */
+footer {
+    background-color: #a7f2d2;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 20px;
+    color: #333;
+}
