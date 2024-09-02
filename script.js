@@ -3,4 +3,3 @@ document.querySelectorAll('a').forEach(link => {
         alert('Você clicou em um link!');
     });
 });
-
